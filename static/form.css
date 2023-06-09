@@ -1,0 +1,48 @@
+.bod
+{
+    background-color: #c80fe3;
+}
+.container
+{
+    padding-left: 20px;
+}
+.msg
+{
+    color: red;
+}
+
+
+.text
+{
+    color: white;
+}
+.content
+{
+    background-color:#161617e6;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.mainText
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.msg
+{
+    color: white;
+    background-color: red;
+}
+.msg1
+{
+    color: greenyellow;
+}
+.car
+{
+    margin: 50px;
+    padding: 50px;
+    background-color: #c80fe3;
+}

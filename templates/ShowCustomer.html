@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Data</title>
+  <link rel="stylesheet" href="/static/form.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+    <div class="card">
+        <div class="card-body car">
+          <table border="1">
+            <tr>
+
+                    <th> Email </th>
+                    <th> Name </th>
+                    <th> Current Balance</th>
+            </tr>
+
+            {% for i in dataFound %}
+            <tr>
+                    <td> {{i[0]}} </td>
+                    <td> {{i[1]}} </td>
+                    <td> {{i[2]}} </td>
+            </tr>
+            {% endfor%}
+          </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

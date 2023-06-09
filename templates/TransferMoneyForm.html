@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Money Transfer Form</title>
+    <link rel="stylesheet" href="/static/style1.css">
+</head>
+
+<body>
+    <h1>Money Transfer Form</h1>
+    <div class="form-container">
+        <form action="/transferMoney" method="post">
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+            </div>
+            <input type="submit" value="Transfer Money">
+        </form>
+    </div>
+</body>
+
+</html>
